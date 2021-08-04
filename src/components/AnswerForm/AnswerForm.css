@@ -1,0 +1,45 @@
+.ck-editor__editable_inline {
+    min-height: 400px;
+  }
+.answerform{
+    font-family: sans-serif, Arial, Verdana, "Trebuchet MS" !important;
+    font-style: 'normal' !important;
+}
+.answerForm__paper{
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.bottomPaper{
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.submit{
+  height: 50px;
+  margin: 3px 40px 3px 40px;
+  padding: 20px;
+  background: linear-gradient(45deg, #CDF3A2 30%, #93D9A3  90%);
+}
+@media (max-width: 990px){
+  .answerForm__paper{
+    display: flex;
+    flex-direction: column;
+    margin: 0 ;
+    padding: 10;
+  }
+  .bottomPaper{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 5px 0;
+    padding: 10;
+  }
+}
+
+

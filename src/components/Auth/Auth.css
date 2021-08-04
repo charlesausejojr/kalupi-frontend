@@ -1,0 +1,9 @@
+.font-custom{
+    font-family: 'Montserrat', sans-serif;
+  }
+@media (max-width:991px)
+{
+  .container__main{
+    margin-bottom: 300px;
+  }
+}

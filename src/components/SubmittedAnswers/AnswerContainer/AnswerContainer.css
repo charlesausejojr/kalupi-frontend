@@ -1,0 +1,6 @@
+.questionContainer{
+    transition: all .2s ease-in-out;
+}
+.questionContainer:hover{
+    transform: scale(1.05);
+}
